@@ -7,10 +7,10 @@
 > **Ex:** `git clone https://github.com/bpaulo/cs50lecture0.git`
 
 
-- `git add <filename> <filename> <filename>`
+- `git add <filename>`
 
-> It will include this (these) file(s) on the repository in the next commit.
-> **Ex:** `git add hello.html classNotes.md`
+> It will put the file on tracking and include it on the repository in the next commit.
+> **Ex:** `git add hello.html`
 
 
 - `git commit -m <"comments">`
