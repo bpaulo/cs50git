@@ -66,20 +66,23 @@ Merge conflicts happens when there are two or more changes in the same line of t
 >   `Automatic merge failed; fix conflicts and then commit the result.`
 > 
 > How the file looks like during the conflict: 
->   `a = 1`
->   `<<<<< HEAD`
->   `b = 2`
->   `=====`
->   `b = 0`
->   `>>>>> 57656c636ff6d6520746f20576562`
->   `c = 3` 
->   `d = 4`
->   `e = 5`
+```shell
+a = 1
+<<<<< HEAD
+b = 2
+=====
+b = 0
+>>>>> 57656c636ff6d6520746f20576562
+c = 3
+d = 4
+e = 5
+```
 > 
 > To resolve conflict the wrong piece of code needs to delete as the HEAD and HASH COMMIT lines. 
->   `a = 1`
->   `b = 2`
->   `c = 3` 
->   `d = 4`
->   `e = 5`
->
+> ```shell
+> a = 1
+> b = 2
+> c = 3 
+> d = 4
+> e = 5
+> ```
