@@ -30,3 +30,8 @@
 - `git push` 
 
 > It will push the changes from the local computer to the origin.
+
+- `git pull` 
+
+> It will pull the lastest version from origin to the local computer.
+
