@@ -1,4 +1,8 @@
-# Git commands
+# Git
+
+[Git] is a free and open source distributed version control system. 
+[Git]: https://git-scm.com/ 
+
 
 ## Basic Commands
 
