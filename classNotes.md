@@ -55,6 +55,15 @@
 >     Update hello.html
 > ``` 
 
+- `git reset --hard <commit>`
+
+> This command reset the "HEAD", reset where this code is in this repository, back to the older version defined by the commit hash.
+
+- `git reset --hard origin/master`
+
+> This command reset the "HEAD", reset where this code is in this repository, back to the older version defined by the commit hash.
+
+
 ## Merge Conflicts
 
 Merge conflicts happens when there are two or more changes in the same line of the same file. Git will show alerts about merge conflicts during pull and push requests. 
@@ -80,7 +89,7 @@ Merge conflicts happens when there are two or more changes in the same line of t
 > e = 5
 > ```
 > 
-> To resolve conflict the wrong piece of code needs to delete as the HEAD and HASH COMMIT lines. 
+> To resolve conflict the wrong piece of code needs to delete as the HEAD and HASH COMMIT lines: 
 > ```shell
 > a = 1
 > b = 2
