@@ -32,9 +32,11 @@
 
 > It will push the changes from the local computer to the origin.
 
+
 - `git pull` 
 
 > It will pull the lastest version from origin to the local computer.
+
 
 - `git log`
 
@@ -54,6 +56,12 @@
 >
 >     Update hello.html
 > ``` 
+
+
+- `git reflog`
+
+> This command will show all the different references that Git has kept track
+
 
 - `git reset --hard <commit>`
 
